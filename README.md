@@ -19,11 +19,12 @@
 ## 🔗 Quick Links
 
 > - [📍 Overview](#-overview)
+> - [🔑 Obtaining Codestral API Key](#-obtaining-codestral-api-key)
 > - [📦 Features](#-features)
 > - [📂 Repository Structure](#-repository-structure)
-> - [🧩 Modules](#-modules)
 > - [🚀 Getting Started](#-getting-started)
 >   - [⚙️ Installation](#️-installation)
+>   - [⚙️ Configuration](#-configuration)
 >   - [🤖 Running CodeStral-Code-Assistant](#-running-CodeStral-Code-Assistant)
 > - [🤝 Contributing](#-contributing)
 
@@ -40,6 +41,36 @@ Code-Bot is an interactive chatbot designed to assist users with programming-rel
 - Sample input and output for the provided code.
 
 The application is built using Streamlit for the web interface and integrates seamlessly with external APIs to generate accurate and executable code snippets. Whether you need help with sorting algorithms, API calls, or any other programming task, Code-Bot is here to help streamline your coding process.
+
+---
+
+## 🔑 Obtaining Codestral API Key
+
+To use Code-Bot, you need to obtain an API key from Codestral. Follow these steps to get your API key:
+
+1. **Visit the Codestral Official Website**:
+   - Go to [Codestral official website](https://console.mistral.ai/codestral).
+
+2. **Login or Sign Up**:
+   - If you already have an account, log in.
+   - If you are new to Codestral, sign up for a new account.
+
+3. **Request Access**:
+   - Once logged in, click on the **Request Access** button.
+
+4. **Verify Your Phone Number**:
+   - You will be prompted to verify your phone number. Follow the instructions to complete the verification process.
+
+5. **Wait for Approval**:
+   - After verifying your phone number, you will receive a request granted email. (In my case, it took 2 hours)
+
+6. **Generate Your API Key**:
+   - Once you receive the approval email, return to the [Codestral official website](https://console.mistral.ai/codestral).
+   - Follow the instructions to generate your API key.
+
+> **Note:** The Codestral API is free to use until August 1st, 2024.
+
+By following these steps, you will be able to obtain and set up your Codestral API key to start using Code-Bot.
 
 ---
 
@@ -78,8 +109,7 @@ These features make Code-Bot a comprehensive tool for programmers, whether they 
 ```sh
 └── CodeStral-Code-Assistant/
     ├── README.md
-    ├── app.py
-    └── requirements.txt
+    └── app.py
 ```
 
 ---
@@ -116,6 +146,19 @@ cd CodeStral-Code-Assistant
 ```sh
 pip install -r requirements.txt
 ```
+
+
+### ⚙️ Configuration
+
+Before running the application, you need to set up your Mistral Codestral API key.
+
+- Open the app.py file
+- Replace the placeholder in the following line with your actual API key:
+
+```
+os.environ["MISTRAL_API_KEY"] = "your_api_key_here"
+```
+
 
 ### 🤖 Running CodeStral-Code-Assistant
 
