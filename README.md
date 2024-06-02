@@ -5,7 +5,7 @@
     <h1 align="center">CodeStral Code Assistant</h1>
 </p>
 <p align="center">
-    Code-Bot is a chatbot designed to assist users with code-related questions. It interacts with the Codestral API to provide code solutions, including descriptions, programming language details, imports, functional code blocks, and sample input/output.
+    CodeStral-Code-Assistant is a chatbot designed to assist users with code-related questions. It interacts with the Codestral API to provide code solutions, including descriptions, programming language details, imports, functional code blocks, and sample input/output.
 </p>
 <p align="center">
 		Developed with the software and tools below.
