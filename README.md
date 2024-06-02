@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+  <img src="https://w7.pngwing.com/pngs/567/444/png-transparent-robotics-chatbot-technology-robot-education-electronics-computer-program-humanoid-robot-thumbnail.png" width="100" />
 </p>
 <p align="center">
     <h1 align="center">CodeStral Code Assistant</h1>
@@ -15,6 +15,16 @@
 	<img src="https://img.shields.io/badge/-streamlit-05122A?style=flat&logo=streamlit&logoColor=FFA518" alt="StreamLit">
 </p>
 <hr>
+
+## Coming Soon
+
+### Self-Correcting Code Agent
+In the upcoming update, I am implementing a self-correcting code agent. This feature will allow the agent to self-execute and evaluate the code before presenting it to the user, ensuring higher accuracy and reliability.
+
+### Streamlit Frontend Updates
+I am also planning to update the Streamlit frontend to improve user experience and add new interactive features.
+
+---
 
 ## 🔗 Quick Links
 
