@@ -182,7 +182,7 @@ streamlit run app.py
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here are several ways you can contribute:
+#### Contributions are welcome! Here are several ways you can contribute:
 
 - **[Submit Pull Requests](https://github.com/rahul2002m/CodeStral-Code-Assistant/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 - **[Join the Discussions](https://github.com/rahul2002m/CodeStral-Code-Assistant/discussions)**: Share your insights, provide feedback, or ask questions.
